@@ -1,0 +1,1 @@
+cmd_/home/vegg/rtkbt/uart/bluetooth_uart_driver/modules.order := {   echo /home/vegg/rtkbt/uart/bluetooth_uart_driver/hci_uart.ko; :; } | awk '!x[$$0]++' - > /home/vegg/rtkbt/uart/bluetooth_uart_driver/modules.order

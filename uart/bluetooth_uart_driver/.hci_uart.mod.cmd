@@ -1,0 +1,1 @@
+cmd_/home/vegg/rtkbt/uart/bluetooth_uart_driver/hci_uart.mod := printf '%s\n'   hci_ldisc.o hci_h4.o hci_rtk_h5.o rtk_coex.o | awk '!x[$$0]++ { print("/home/vegg/rtkbt/uart/bluetooth_uart_driver/"$$0) }' > /home/vegg/rtkbt/uart/bluetooth_uart_driver/hci_uart.mod
